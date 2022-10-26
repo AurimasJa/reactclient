@@ -1,0 +1,163 @@
+body {
+  color: #8a8985; /* teksto spalva */
+  font-family: Arial, Helvetica, sans-serif; /* šriftas */
+  font-size: 12px; /* teksto dydis */
+  background-color: #e3e3e3;
+}
+
+a {
+  color: #ca4c44;
+}
+
+/* pagrindinis puslapio blokas */
+#body {
+  width: 900px;
+  margin: 0px auto; /* bloko centravimas puslapio viduje */
+}
+
+/* viršutinė puslapio dalis */
+#header {
+  display: flex;
+  background-color: black;
+  /*position: fixed; apacioje*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 900px;
+  height: 70px;
+  border-top: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+/* turinio blokelis */
+#content {
+  width: 900px;
+  background-color: #fff;
+  /* border-left: 1px solid silver; */
+  /* border-right: 1px solid silver; */
+  float: left;
+}
+.content {
+  width: 900px;
+  background-color: #fff;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  float: left;
+}
+
+/* pagrindinio meniu blokelis */
+#topMenu {
+  width: 900px;
+  height: 40px;
+  border-bottom: 3px solid silver;
+  float: left;
+  display: table;
+}
+
+#slogan {
+  margin: 20px 0px 0px 15px;
+  color: #e3564f;
+  font-size: 22px;
+}
+h3 a {
+  text-decoration: none;
+}
+#topMenu li {
+  float: left; /* nustatome horizontalųjį meniu punktų lygiavimą */
+  list-style: none; /* paslepiame sąrašo stiliaus savybes */
+  margin: 12px 15px 12px 15px; /* nustatome meniu punktų ribas */
+}
+
+#topMenu-right li {
+  float: right; /* nustatome horizontalųjį meniu punktų lygiavimą */
+  list-style: none; /* paslepiame sąrašo stiliaus savybes */
+  margin: 12px 15px 12px 15px; /* nustatome meniu punktų ribas */
+}
+#topMenu-right-info {
+  float: right; /* nustatome horizontalųjį meniu punktų lygiavimą */
+  list-style: none; /* paslepiame sąrašo stiliaus savybes */
+  margin: 12px 15px 12px 15px; /* nustatome meniu punktų ribas */
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+#topMenu li a {
+  text-decoration: none; /* paslepiame nuorodos pabraukimą */
+}
+
+#topMenu li a:hover {
+  text-decoration: underline; /* nustatome nuorodos pabraukimą užvedus pele */
+}
+
+#topMenu li a.active {
+  text-decoration: underline; /* nustatome aktyvaus meniu punkto pabraukimą */
+}
+
+#contentLeft {
+  width: 200px;
+  float: left; /* blokelio pozicija */
+}
+
+#contentLeft li {
+  list-style: none;
+  margin: 10px 0px 10px 25px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  /*position: fixed; apacioje*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 900px;
+  height: 70px;
+  border-top: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+/* .footercity{ neveikia
+	float: left;
+	text-align: left;
+} */
+.owner {
+  color: darkgrey;
+  font-size: 14px;
+} /* Bordered form */
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.mybutton {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+.margin-leftlogreg {
+  margin: 10px;
+}
+
+.loginmain {
+  text-align: center;
+  font-size: 16px;
+  color: brown;
+}
